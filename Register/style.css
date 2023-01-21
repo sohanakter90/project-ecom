@@ -1,0 +1,42 @@
+html,
+body,
+section {
+      height: 100%;
+}
+
+body {
+      background: url(images/grid.PNG);
+      background-size: cover;
+}
+
+.login-form {
+
+      max-width: 350px;
+      width: 100%;
+      margin: auto;
+      padding: 2.5em;
+      background: rgba(121, 150, 151, .12);
+
+}
+
+.btn-outline-info {
+      color: black;
+      border: 1px solid cyan;
+      background: #f0f0f0;
+}
+
+
+
+.btn-outline-info:hover {
+      color: white;
+      border: 1px solid rgb(219, 207, 207);
+      background: olive;
+}
+
+.btn-outline-info:focus {
+      box-shadow: #f0f0f0;
+}
+
+.form-control {
+      border: 1px solid cyan;
+}
